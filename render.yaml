@@ -49,6 +49,6 @@ services:
 
     # Configuración de build
     buildCommand: |
-      echo "🚀 Preparando PetManager para despliegue..."
+      echo "Preparando PetManager para despliegue..."
       chmod +x ./build-and-run.sh || true
       find . -name "mvnw" -exec chmod +x {} \; || true
